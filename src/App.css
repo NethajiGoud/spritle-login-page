@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.div-background {
+  background-color: darkgoldenrod;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.white-card {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 50vh;
+  width: 30vw;
+  align-self: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-element {
+  width: 350px;
+  height: 50px;
+
+  margin: 10px;
+}
+.button {
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  color: #ffffff;
+}
+.button-div {
+  display: flex;
+
+  justify-content: center;
+}
+.button-signup {
+  width: 30vw;
+  height: 50px;
+  background-color: blue;
+  color: #ffffff;
+}
+.para {
+  align-self: center;
+  text-decoration: underline;
+}
